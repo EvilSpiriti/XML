@@ -20,7 +20,13 @@ You can install the package via composer:
 ```bash
 composer require evilspiriti/xml
 ```
+## Usage
+This packages comes with a facade which you can use like this `\XML::` or use it in your class like `use XML;`
 
+In depth guides can be found here:
+
+* [Exporting](https://github.com/EvilSpiriti/XML/blob/master/docs/export.md)
+* [Importing](https://github.com/EvilSpiriti/XML/blob/master/docs/import.md)
 
 
 ```php
