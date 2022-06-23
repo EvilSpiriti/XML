@@ -18,7 +18,7 @@ The main features are
 You can install the package via composer:
 
 ```bash
-composer require acfbentveld/xml
+composer require evilspiriti/xml
 ```
 
 ## Usage
