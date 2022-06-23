@@ -21,13 +21,6 @@ You can install the package via composer:
 composer require evilspiriti/xml
 ```
 
-## Usage
-This packages comes with a facade which you can use like this `\XML::` or use it in your class like `use XML;`
-
-In depth guides can be found here:
-
-* [Exporting](https://acfbentveld.github.io/XML/docs/export)
-* [Importing](https://acfbentveld.github.io/XML/docs/import)
 
 
 ```php
