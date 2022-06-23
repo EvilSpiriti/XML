@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "EvilSpiriti\\XML\\": "src"
+            "ACFBentveld\\XML\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "EvilSpiriti\\XML\\Tests\\": "tests"
+            "ACFBentveld\\XML\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "EvilSpiriti\\XML\\XMLServiceProvider"
+                "ACFBentveld\\XML\\XMLServiceProvider"
             ],
             "aliases": {
-                "XML": "EvilSpiriti\\XML\\XMLFacade"
+                "XML": "ACFBentveld\\XML\\XMLFacade"
             }
         }
     },
