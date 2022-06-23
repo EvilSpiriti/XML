@@ -7,7 +7,7 @@
         "xml",
         "laravel"
     ],
-    "homepage": "https://github.com/ACFBentveld/XML",
+    "homepage": "https://EvilSpiriti/XML",
     "license": "MIT",
     "authors": [
         {
@@ -31,12 +31,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ACFBentveld\\XML\\": "src"
+            "EvilSpiriti\\XML\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ACFBentveld\\XML\\Tests\\": "tests"
+            "EvilSpiriti\\XML\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -49,10 +49,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "ACFBentveld\\XML\\XMLServiceProvider"
+                "EvilSpiriti\\XML\\XMLServiceProvider"
             ],
             "aliases": {
-                "XML": "ACFBentveld\\XML\\XMLFacade"
+                "XML": "EvilSpiriti\\XML\\XMLFacade"
             }
         }
     },
